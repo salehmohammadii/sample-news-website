@@ -1,0 +1,146 @@
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+.hamburger {
+  padding: 15px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible; }
+  .hamburger:hover {
+    opacity: 0.7; }
+
+.hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  position: relative; }
+
+/*
+   * 3DX
+   */
+.hamburger--3dx .hamburger-box {
+  perspective: 80px; }
+
+/*
+   * 3DX Reverse
+   */
+.hamburger--3dx-r .hamburger-box {
+  perspective: 80px; }
+
+/*
+   * 3DY
+   */
+.hamburger--3dy .hamburger-box {
+  perspective: 80px; }
+
+/*
+   * 3DY Reverse
+   */
+.hamburger--3dy-r .hamburger-box {
+  perspective: 80px; }
+
+/*
+   * Arrow
+   */
+
+/*
+   * Arrow Right
+   */
+
+/*
+   * Arrow Alt
+   */
+
+/*
+   * Arrow Alt Right
+   */
+
+/*
+   * Boring
+   */
+
+/*
+   * Collapse
+   */
+
+/*
+   * Collapse Reverse
+   */
+
+/*
+   * Elastic
+   */
+
+/*
+   * Elastic Reverse
+   */
+
+/*
+   * Emphatic
+   */
+.hamburger--emphatic {
+  overflow: hidden; }
+
+/*
+   * Emphatic Reverse
+   */
+.hamburger--emphatic-r {
+  overflow: hidden; }
+
+/*
+   * Slider
+   */
+
+/*
+   * Slider Reverse
+   */
+
+/*
+   * Spring
+   */
+
+/*
+   * Spring Reverse
+   */
+
+/*
+   * Stand
+   */
+
+/*
+   * Stand Reverse
+   */
+
+/*
+   * Spin
+   */
+
+/*
+   * Spin Reverse
+   */
+
+/*
+   * Squeeze
+   */
+
+/*
+   * Vortex
+   */
+
+/*
+   * Vortex Reverse
+   */
+
